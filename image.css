@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding:0px;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border:2px solid black;
+    background-image: url(blog1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width:80%;
+    height:60%;
+    position: relative;
+    box-shadow: 5px 10px rgba(204, 202, 202, 0.623);
+
+}
+.btn{
+    display:inline-block;
+    background-color: white;
+    color:black;
+    font-size: 1.5rem;
+    padding:0.5rem;
+    border-radius: 1rem;
+    box-shadow: 6px 7px royalblue;
+    outline: none;
+    
+
+}
+#next{
+  position: absolute;  
+  top: 50%;
+  left:0px;
+  transform: translate(-50%);
+   
+}
+#prev{
+    position: absolute;  
+    top: 50%;
+    right:0px;
+    transform: translate(50%);
+     
+  }
+  .btn:hover{
+      background-color: seagreen;
+      color: seashell;
+      font-size: larger;
+  }

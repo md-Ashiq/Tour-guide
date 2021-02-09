@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="file:///D:/imp%20folders/fontawesome-free-5.13.0-web/css/all.css">
+   <link rel="stylesheet" href="owl.carousel.min.css">
+   <link rel="stylesheet" href="owl.theme.default.min.css">
+</head>
+<body>
+<style>
+body{
+    margin:0;
+    padding:0;
+    font-family: 'poppins';
+}
+header{
+        background-image: url("4.jpg");
+        text-align: center;
+        background-size: cover;
+        height:110vh;
+        
+    
+}
+#threedots{
+color:black;
+font-size: x-large;
+display:none;
+}
+.logo a{
+    color:white;
+    font-size:1.4rem;
+    cursor: pointer;
+    
+    
+   }
+   .logo{
+       margin:10px;
+       padding:10px;
+       text-transform: uppercase;
+
+   }
+a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bolder;
+   }
+
+.navigation{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0rem;
+    font-family:  serif;
+    
+}
+ul{
+    list-style-type: none;
+    display:flex;
+   
+}
+
+#fb{
+    color: #0225b0;
+    padding:10px;
+}
+#insta{
+    color:#3f729b;
+    padding:10px;
+}
+#twitter{
+color:#405DE6;
+padding:10px;
+}
+#youtube{
+    color:red;
+    padding:10px;
+}
+
+li{
+    padding:1.5rem 1rem;
+    
+   
+}
+li a:hover{
+    color:#3b1414;
+    
+}
+.fav {
+padding:1.6rem 1rem;
+display:block;
+
+}
+.headerimg{
+    padding-top:5rem;
+    margin-top:5rem;
+}
+
+.heading{
+    color:black;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+#btn{
+    background-color:#c5faf1;
+    color:black;
+    display:inline-block;
+    font-weight: 900;
+    border:2px solid black;
+    border-radius: 15rem;
+    padding:11px;
+    cursor: pointer;
+    width:7rem;
+    font-size: 20px;
+
+}
+#btn:hover{
+    background-color:#37dfd9 ;
+    color:white;
+    border:1px solid #37dfd9;
+
+}
+  
+/*............. main part........... */
+#intro{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 6rem;
+}
+.para{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 37rem;
+    margin-right: 3rem;
+    border:2px soild red;
+    margin-top: 12rem;
+    
+}
+#para1{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size:2rem;
+    margin-left: 2rem;
+}
+ #mainimg{
+    /* background-image:url("bg.png");
+    height:110vh;
+    background-size: cover; */
+    margin-top:20rem; 
+    
+}
+#main1{
+    margin-left:2rem;
+    border-radius: 2rem;
+    margin-top:-10rem;
+    height:400px;
+    width:400px;
+    position:relative;
+    
+}
+#pakad{
+    margin-left:2rem;
+    margin-top: -7rem;
+    display: block;
+}
+/* --------------------------blog posting-------------------------- */
+.blogcontainer{
+    background-image: url("bg.png");
+    height:100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.blog-post{
+    padding-top:6rem;
+}
+.blogcontent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height:100%;
+    width:80%;
+    margin:3rem 2rem;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    
+
+}
+.blogtitle{
+    padding:2rem 0;
+    font-family: monospace;
+    font-size: 20px;
+}
+span{
+    display:block;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 18px;
+    padding:2px;
+}
+#blogbtn{
+    padding:1rem 1rem;
+    border-radius: 2rem;
+    border: 1px solid skyblue;
+    color:black;
+    font-weight: bold;
+    font-family: monospace;
+    margin:0 .5rem .5rem;
+    background-color: skyblue;
+    cursor: pointer;
+    font-size: 17px;
+}
+#blogbtn:hover{
+    background-color:#37dfd9 ;
+    color:white;
+    border:1px solid #37dfd9;
+}
+
+
+
+</style>
+    
+    <header>
+<div class="container">
+    <div class="navigation">
+    <span id="logo" class="logo"><a href="#">Travel World</a></span>
+    <nav>
+        <ul>
+             <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a> </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="fav">
+       <a href="#"><i id="fb" class="fab fa-facebook"></i></a>
+       <a href="#"><i id="twitter"class="fab fa-twitter"></i></a>
+       <a href="#"><i id="insta"class="fab fa-instagram"></i></a>
+       <a href="#"><i id="youtube"class="fab fa-youtube"></i></a>
+       <a href="#"><i id="threedots"class="fas fa-bars"></i></a>
+
+    </div>
+</div>
+<main>
+<div class="headerimg">
+    <h1 class="heading">"Travelling is not just shifting from one place to other"</h1>
+    <h2 class="heading">"its all about experincing the new shift."</h2>
+</div>
+   </main>
+ 
+<p id="btn">Click Me</p>
+
+
+</div>
+
+</header>
+<div class="container1">
+<p id="intro">On this Website you will get the complete details of a place. </p>
+<p  id="para1">So do you wanna know about Ooty ?</p>
+<div class="para">Ooty officially known as Udagamandalam ( abbreviated as Udhagai), is a town and a municipality in the Nilgiris district of the Indian state of Tamil Nadu. It is located 86 km north of Coimbatore and 128 km south of Mysore and is the headquarters of the Nilgiris district. It is a popular hill station located in the Nilgiri Hills. Local Residents call it Queen of Hills.
+
+    Originally occupied by the Toda people, the area came under the rule of the East India Company at the end of the 18th century. The economy is based on tourism and agriculture, along with the manufacture of medicines and photographic film. The town is connected by the Nilgiri ghat roads and Nilgiri Mountain Railway. Its natural environment attracts tourists and it is a popular summer destination. In 2011, the town had a population of 88,430.</div>
+<div id="main1"><img  id="main1" src="main3.jpg"></div>
+<h1 id="pakad"> Check-out Most Visited places in Ooty </h1>
+</div>
+<div id="mainimg">
+
+
+</div>
+<section >
+    <div class="blogcontainer">
+        <div class="owl-carousel blog-post">
+            <div class="blogcontent">
+                <img class="blogimg" src="blog1.jpg" >
+                <div class="blogtitle">
+                    <h3 >Doddabetta Peak</h3>
+                    <button id="blogbtn">know more</button>
+                    <span>A Mesmorising place</span>
+                </div>
+            </div>
+            <div class="blogcontent">
+                <img  class="blogimg" src="blog4.jpg" >
+                <div class="blogtitle">
+                    <h3 >Doddabetta Peak</h3>
+                    <button id="blogbtn">know more</button>
+                    <span>A Mesmorising place</span>
+                </div>
+            </div>
+            <div class="blogcontent">
+                <img  class="blogimg" src="blog3.jpg" >
+                <div class="blogtitle">
+                    <h3 >Doddabetta Peak</h3>
+                    <button id="blogbtn">know more</button>
+                    <span>A Mesmorising place</span>
+                </div>
+            </div>
+            <div class="blogcontent">
+                <img  class="blogimg" src="blog2.jpg" >
+                <div class="blogtitle">
+                    <h3 >Doddabetta Peak</h3>
+                    <button id="blogbtn">know more</button>
+                    <span>A Mesmorising place</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--********* jquery library******** -->
+<script src="jquery.min.js"></script>
+
+    <!--*********owl carosel js******** -->
+    <script src="owl.carousel.min.js"></script>
+    <script src="java.js"></script>
+</body>
+</html>
